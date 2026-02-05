@@ -1,0 +1,44 @@
+What is time complexity 
+why interviewer ask time compleixity and space complexity
+
+different types of time complexity and spcace complexity 
+
+rules for time complexity and space complexity
+
+-------------------------------------
+time complexity is a time take to run the code 
+
+well the above defination is wrong as it will not be enough as time compleity is the time function to execute the program or algorithms
+
+--- 
+what is time complxity
+ Well time complexity is the time function to execute the algorithm 
+ as it is never the time taken but it is mostly like the rate of increase in time 
+ with respect to input size 
+
+ as the input size grow how much the time taken by your code to run increases 
+ as it can be differ from code to code and machine to machine but mostly it will run by the time function
+
+
+ well if it is faster machine then it can just finish executing the code in 4 second wehere as 
+ if we do use an older machine may be it will take more time for the given input so this is not the 
+ time complexity it is speed difference but here we are looking for rate increase
+
+
+
+
+BIG Oh notation - we do use Big Oh notation to get the worst case complexity of the code
+as it will be depend upon the number of operatiion and if it is less or equal to  n 
+so its time complexity will be O(N)
+
+
+Always calculate time complexity in worst case 
+
+Avoid the constant values 
+
+Avoid the lower bound
+
+Look for loops they will get the complexity of the input 
+
+ 
+Always count for the worst case scenario
