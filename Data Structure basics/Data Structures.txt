@@ -1,0 +1,118 @@
+Arrays — The Core Building Block
+What is an Array?
+
+Think of an array as:
+
+👉 A row of numbered boxes storing values
+
+Each value sits at a fixed position (index).
+
+
+Index:  0  1  2  3
+Array: [5, 8, 2, 9]
+
+
+arr[0] → 5
+arr[1] → 8
+
+
+Why arrays matter in interviews
+
+Because arrays teach:
+
+✅ Traversal
+✅ Searching
+✅ Patterns
+✅ Optimization thinking
+
+Most interview problems secretly start as array problems.
+
+
+Core Operations (must understand)
+1️. Traversal — visiting every element
+for i in range(len(arr)):
+    print(arr[i])
+
+
+👉 Time complexity: O(n)
+
+
+
+
+2. Searching
+
+Naive search:
+
+def search(arr, target):
+    for num in arr:
+        if num == target:
+            return True
+    return False
+
+
+👉 Time Complexity O(n)
+
+
+
+3️.  Insert/Delete intuition
+
+Arrays are contiguous in memory.
+
+If you insert in the middle:
+
+[1, 2, 4, 5]
+insert 3 → shift elements
+
+
+Cost = O(n)
+
+Interview insight:
+Arrays are fast to access, slow to rearrange.
+
+
+
+Interview Pattern #1 — Reverse an array
+Classic starter question.
+Logic
+
+Swap front ↔ back.
+
+def reverse(arr):
+    left = 0
+    right = len(arr) - 1
+
+    while left < right:
+        arr[left], arr[right] = arr[right], arr[left]
+        left += 1
+        right -= 1
+
+    return arr
+
+
+Input:
+
+[1,2,3,4]
+
+
+Output:
+
+[4,3,2,1]
+
+
+👉 This teaches two-pointer thinking — VERY important.
+
+Interview Pattern #2 — Find max element
+def find_max(arr):
+    max_val = arr[0]
+
+    for num in arr:
+        if num > max_val:
+            max_val = num
+
+    return max_val
+
+
+Teaches:
+
+👉 Iteration
+👉 Comparison logic

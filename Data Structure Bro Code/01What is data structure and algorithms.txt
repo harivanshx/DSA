@@ -1,0 +1,126 @@
+What we'll cover
+
+Basic data structures
+Big O notation Z
+Searching algorithms
+Sorting algorithms
+Graphs O
+Trees O
+-------------------------------------------------------------------------------------------
+
+Data Structures : a named location that can be used to stroe and organize data
+Example : Family tree which is Heirarchy of family relationships
+
+
+An array is a data structure which is a collection of elements stored at contiguous memory locationn
+Example
+char[] array;
+'H' 'E' 'L' 'L' 'O'
+
+well it is just a named location
+
+
+Algorithm : An Algorithm is a collection of steps to solve a problem 
+# Example : Baking a pizza
+- Heating the oven to 550 degree farahenite
+- Knead the dough
+- Add toppings
+- ------
+------
+
+Example - Linear Search Algorithm which search one by one - 
+examine the elements of an array to finda a value in an array
+
+Why learn DS & A?
+
+- You'll write code that is both
+ time and memory efficient
+- Commonly asked questions
+  involve DS&A in coding and job interviews
+
+
+
+
+
+
+==========================================================================================
+STACK Data Structures  :
+########################################################
+
+
+
+one like = one prayer
+
+// Stack is a lifo algorithm that means last in first out 
+it is like you are stacking a deck of cards so you can only grab the top most as it is the 
+last inserted but it is first to be out of the deck 
+stack just work like the real life stacking of things 
+- it takes its inspiration like this and if we talk about the operations which 
+we can perform using stacks 
+so there are some operations that can be performed using the stack data structure
+
+- Push() 
+- Pop()
+
+
+
+- as we know we dont have stack in python but we can use stack by defining it 
+and as we define the function we need to store the data of that into 
+
+
+
+
+
+
+
+=================================================================================
+Array Data Structure
+################################################################################
+
+Array is a data structure in python which we can use to store data in contiguios memory location
+
+well in array indexing start with zero most of the time 
+and the internal memory presentation work in the ram which will store the variables in memory one by one 
+in contiguios memory location or should i say memory addresses which are contiguios
+
+
+
+Store apple's stock price for 5 days and
+answer,
+1. What was the price on dayl ?
+2. What was the price on day 3 ?
+stock_prices =
+stock _ prices [0] -> 298 price on day 1
+stock _ prices [2] -> 320 price on day 3
+
+
+well it will take the memory location one by one with contiguios addresses
+so that there is a contiguios memory allocation to the variable data 
+
+well as all the data is converted into binaray data then it will take 4 bytes and these 4 byte then stored in a memory location
+so it will be taking bits ones and zeros 
+
+what was the prize of day 3 
+well we can say this the data prize or the stock price on the location will be defind 
+by the size of integer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
