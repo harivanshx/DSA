@@ -1,0 +1,15 @@
+TLE ERROR IN LEET CODE AND OTHER CODING PLATFORM
+
+
+
+Whenever you write a code it got saved in the server and also it will be given with you 
+time limit and constraints 
+One second - which is usually means 10^8 operations 
+
+in one second server can do 10^8 operations as it is not exect but near to 
+
+well what it means is if you do have a list and you do have to sort it and return it and you got the time complexity O(n^2)
+and in constraints you do have the lenght of list which is maximum 10^5 and you do have (10^5)^2 so it will be 10^10
+which will not run and give the time limit error or TLE
+as the code will be correct but it will take a lot of time to run in the server which can be an issue
+

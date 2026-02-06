@@ -1,0 +1,22 @@
+Python List Operation Complexities
+
+  Operation          Average Case   Amortized Worst Case
+  ------------------ -------------- ----------------------
+  Copy               O(n)           O(n)
+  Append             O(1)           O(1)
+  Pop last           O(1)           O(1)
+  Pop intermediate   O(n)           O(n)
+  Insert             O(n)           O(n)
+  Get item           O(1)           O(1)
+  Set item           O(1)           O(1)
+  Delete item        O(n)           O(n)
+  Iteration          O(n)           O(n)
+  Get slice          O(k)           O(k)
+  Delete slice       O(n)           O(n)
+  Set slice          O(k+n)         O(k+n)
+  Extend             O(k)           O(k)
+  Sort               O(n log n)     O(n log n)
+  Multiply           O(nk)          O(nk)
+  x in s             O(n)           O(n)
+  min(s), max(s)     O(n)           —
+  length             O(1)           O(1)

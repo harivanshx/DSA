@@ -1,0 +1,17 @@
+
+
+Memory space 
+big oh
+
+
+Auxalary space + input space 
+
+the space used to store the input is called input space
+the extra space used to solve the problem is called auxalary space
+
+
+do not change the input unless askedd
+
+Question  -  Array or list both are same as in python we use list in place of array
+
+Space complexity O(n)

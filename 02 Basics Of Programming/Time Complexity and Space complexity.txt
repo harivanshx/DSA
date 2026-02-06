@@ -42,3 +42,72 @@ Look for loops they will get the complexity of the input
 
  
 Always count for the worst case scenario
+
+
+Average case  = (best case + worst case )/2
+
+Avoid constant values and avoide lower bounds or values
+
+There are different type of time complexity so we need to find the worst case
+
+Worst case is also called as big oh or upper bound 
+
+
+for i in range (1 , n+1):
+    for j in range (1,n+1)
+
+O(n^2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
